@@ -6,7 +6,7 @@
 }
 
 .container {
-    margin: 0 100px;
+    margin: 0 300px;
 }
 
 body{
@@ -124,7 +124,7 @@ a{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:30px
+    gap:20px
 }
 
 .destination {
@@ -167,8 +167,16 @@ a{
 }
 
 .quote .container {
+    margin-left: 150px;
+    margin-right: 150px;
     padding: 0 100px
 }
+
+.main .container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 
 .quote-text {
     font-size: 36PX;
@@ -189,8 +197,14 @@ a{
     background-color: #f9faf8;
 }
 
+.action .container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 .action-box {
     margin: 50px 80px;
+    min-width: 200px;
     padding: 30px 50px;
     color: #e5e7eb;
     font-size: 16px;
